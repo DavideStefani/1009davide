@@ -1,0 +1,50 @@
+Report Scansioni Nmap
+
+Target: Metasploitable
+IP: 192.168.50.101
+
+Sistema Operativo:
+
+Linux versione 2.6.X (sembra un sistema virtuale su VirtualBox)
+Porte Aperte:
+
+FTP (21/tcp)
+SSH (22/tcp)
+Telnet (23/tcp)
+SMTP (25/tcp)
+DNS (53/tcp)
+RPC (111/tcp)
+NetBIOS (139/tcp)
+Microsoft DS (445/tcp)
+Vari servizi di login e shell (512, 513, 514/tcp)
+RMI Registry (1099/tcp)
+NFS (2049/tcp)
+MySQL (3306/tcp)
+PostgreSQL (5432/tcp)
+VNC (5900/tcp)
+X11 (6000/tcp)
+IRC (6667/tcp)
+Versioni Servizi:
+
+FTP: vsftpd 2.3.4
+SSH: OpenSSH 4.7p1
+Telnet: Linux telnetd
+Web: Apache 2.2.8
+DNS: BIND 9.4.2
+SMB: Samba 3.X - 4.X
+Note:
+
+La Syn Scan e la TCP connect scan hanno trovato le stesse porte aperte. La Syn Scan è più rapida e un po' più "silenziosa".
+Target: Windows
+IP: 192.168.50.155
+
+Sistema Operativo:
+
+Probabilmente Windows XP (forse SP2 o SP3) o qualche versione di Windows Server 2003/2008.
+Porte Aperte:
+
+NetBIOS (139/tcp)
+Microsoft DS (445/tcp)
+Note:
+
+La scansione ha suggerito che il sistema operativo potrebbe essere Windows XP. Ha trovato solo due porte aperte, il che è tipico di Windows più vecchi.
